@@ -130,9 +130,10 @@ a {
 
 /* Service_Section_Start-------------- */
 .our_Service {
-  padding: 70px 0;
+  padding: 70px 0px;
   background-color: #d1dfbb;
 }
+
 .service_items {
   display: flex;
   justify-content: space-around;
@@ -296,9 +297,18 @@ input {
   width: 580px;
 }
 
+.text_content a{
+  color: #fff;
+} 
+
+
 .About_content button {
   margin-top: 30px;
+  
 }
+
+
+
 
 /* About_Us_Section_End================= */
 
