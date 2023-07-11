@@ -1,0 +1,255 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.btn {
+    color: #fff;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #e55473;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+.Caption{
+    text-align: center;
+}
+
+.Title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+/* Common_Css_End===================== */
+
+/* First_Banner_Start----------------- */
+
+.First_Banner {
+  padding: 150px 140px 30px 140px;
+  display: flex;
+  align-items: center;
+  background: rgba(229, 84, 115, 0.1);
+  justify-content: space-between;
+  position: relative;
+}
+
+.banner_image {
+  width: 400px;
+  position: absolute;
+  right: 140px;
+  bottom: 0;
+}
+
+.banner_title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.banner_description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 556px;
+  margin-top: 20px;
+}
+
+/* First_Banner_End================== */
+
+/* Our_Future_Section_Start_---------- */
+
+.Our_Future_Section {
+  padding: 70px 0px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.future_main_item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.future_item {
+  height: 400px;
+  width: 300px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  position: relative;
+  margin-top: 50px;
+}
+
+.item_two {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.item_three {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.future_item .future_img {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  bottom: -149px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.future_item a {
+  color: #272727;
+  font-size: 16px;
+}
+
+.future_img_caption {
+  position: absolute;
+  left: 50%;
+  top: 104%;
+  transform: translate(-50%, -50%);
+}
+
+/* Our_Future_Section_End============== */
+
+/* Hot_banner_Start_------------------- */
+
+.Hot_banner {
+  background-color: #e55473;
+  display: flex;
+  padding: 100px 200px;
+  align-items: center;
+  justify-content: space-around;
+}
+.Hot_banner img {
+  width: 218px;
+}
+.hot_title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hot_color {
+  color: #e55473;
+}
+.hot_description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+}
+/* Hot_banner_End=================== */
+
+/* Instagram_Section_Start---------- */
+.instagram {
+  padding: 70px 0px;
+}
+
+.insta_img_item {
+  width: 300px;
+  height: 350px;
+  margin-top: 70px;
+}
+.insta_img_item img {
+  width: 100%;
+  height: 100%;
+}
+
+.instagram_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Instagram_Section_Start========== */
+
+/* Latest_Deal_Start---------------- */
+.latest_deal {
+  background: url(../images/Rectangle\ 9.png) no-repeat center;
+  background-size: cover;
+  height: 349px;
+  width: 97%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+.latest_dicount {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.latest_title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.latest_coupon {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+input {
+  width: 400px;
+  background-color: white;
+  color: black;
+  padding: 13px 20px;
+  border: none;
+}
+
+.subscribe_btn {
+  margin-left: 20px;
+}
+/* Latest_Deal_End====================== */
+
+/* Footer_section_Start---------------- */
+.footer_content {
+  background-color: black;
+  color: white;
+  padding: 130px 300px;
+  text-align: center;
+}
+
+.footer_title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer_content span {
+  color: #e55473;
+}
+.footer_describtion {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  line-height: 30px;
+  width: 625px;
+  margin: 20px 0px;
+  margin-left: 61px;
+}
+
+.footer_copy {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Footer_section_End============== */
